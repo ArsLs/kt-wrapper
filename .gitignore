@@ -1,0 +1,28 @@
+# Secrets (never commit)
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[oc]
+.venv/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+*.egg-info/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Tooling / OS
+.claude/
+.idea/
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+*.log
